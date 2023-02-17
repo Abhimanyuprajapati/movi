@@ -18,7 +18,7 @@ body{
     justify-content: flex-start;
 }
 .container .left{
-    width: 15%;
+    width: 12%;
     height: 100%;
     background-color: #111;
     display: flex;
@@ -30,7 +30,7 @@ body{
 }
 
 .container .left p{
-    font-size: 18px;
+    font-size: 20px;
     color: grey;
     text-transform: capitalize;
     margin-bottom: 15px;
@@ -42,10 +42,10 @@ body{
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
-    padding: 15px 20px;
+    padding: 15px 17px;
     margin: 1px 0;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.5s;
     color: white;
 }
 .container .left .flow:nth-child(5){
@@ -69,17 +69,17 @@ body{
     font-size: 25px;
     color: rgb(226,226,226);
 }
-.container .flow h2{
+/*.container .flow h2{
     text-transform: capitalize;
     color: rgb(226,226,226);
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
     text-align: left;
-}
+ } */
 
 .container .right{
-    width: 85%;
+    width: 88%;
     position: absolute;
     right: 0;
     background-color: #111;
@@ -98,19 +98,22 @@ body{
         padding-left: 480px;
         font-size: 39px;
 }
+/*
 .right .heading .img-container{
     width: 50%;
     height: 350px;
     background: url(../images/main-img.jpg) no-repeat center center / cover;
 }
+*/
 
+/*
 .right .heading .img-container img{
     width: 100%;
     height: 100%;
 }
-
+*/
 .trending{
-    margin-top: 40px;
+    margin-top: 17px;
     padding-left: 20px;
 }
 h1{
@@ -158,9 +161,10 @@ h1 span{
     transition: all 0.4s;
 }
 
-.list:hover::before{
-    transform: translateY(0);
+.list:hover::before{               /* this is all about the hover in the img */
+    transform: translateY(0);    
     opacity: 1;
+    width: 184px;
     visibility: visible;
 }
 
