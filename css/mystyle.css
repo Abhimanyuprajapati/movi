@@ -69,15 +69,6 @@ body{
     font-size: 25px;
     color: rgb(226,226,226);
 }
-/*.container .flow h2{
-    text-transform: capitalize;
-    color: rgb(226,226,226);
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-align: left;
- } */
-
 .container .right{
     width: 88%;
     position: absolute;
@@ -98,20 +89,6 @@ body{
         padding-left: 480px;
         font-size: 39px;
 }
-/*
-.right .heading .img-container{
-    width: 50%;
-    height: 350px;
-    background: url(../images/main-img.jpg) no-repeat center center / cover;
-}
-*/
-
-/*
-.right .heading .img-container img{
-    width: 100%;
-    height: 100%;
-}
-*/
 .trending{
     margin-top: 17px;
     padding-left: 20px;
@@ -272,3 +249,61 @@ h1 span{
 .tv {
     margin-bottom: 50px;
 }
+
+.webseries .list:nth-child(1){
+    background: url(../image/img15.jpg) no-repeat center center /cover;
+}
+
+.webseries .list:nth-child(2){
+    background: url(../image/img16.jpg) no-repeat center center /cover;
+}
+.webseries .list:nth-child(3){
+    background: url(../image/img17.jpg) no-repeat center center /cover;
+}
+.webseries .list:nth-child(4){
+    background: url(../image/img18.jpg) no-repeat center center /cover;
+}
+.webseries .list:nth-child(5){
+    background: url(../image/img19.jpg) no-repeat center center /cover;
+}
+.webseries .list:nth-child(6){
+    background: url(../image/img20.jpg) no-repeat center center /cover;
+}
+.webseries .list:nth-child(7){
+    background: url(../image/img21.jpg) no-repeat center center /cover;
+}
+
+.webseries .list:nth-child(1)::before{
+    content: 'Rocket Boys';
+}
+.webseries .list:nth-child(2)::before{
+    content: 'The Family Man';
+}
+
+.webseries .list:nth-child(3)::before{
+    content: 'Aspirants';
+}
+.webseries .list:nth-child(4)::before{
+    content: 'Paatal Lok';
+}
+
+.webseries .list:nth-child(5)::before{
+    content: 'Asur: Welcome to Your Dark Side';
+}
+.webseries .list:nth-child(6)::before{
+    content: 'Kota Factory';
+}
+.webseries .list:nth-child(7)::before{
+    content: 'Scam 1992: The Harshad Mehta Story';
+}
+
+.webseries{
+    margin-bottom: 50px;
+}
+
+/* .backgrou:nth-child(1)::before{               this is all about the hover in the img 
+    transform: translateY(0);    
+    opacity: 1;
+    width: 200px;
+    visibility: visible;
+} */
